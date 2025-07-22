@@ -23,10 +23,10 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 1.22
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b4d4f36d36b997345a25c76ccfa27871, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -180,8 +180,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -205,12 +205,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1795847265}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 1602944967}
   - component: {fileID: 1602944966}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: WFC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -406,26 +406,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c5c5c3a57810434f8993f97f4898cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Width: 100
-  Height: 100
-  spawnDelay: 0.5
+  Width: 7
+  Height: 1
+  Depth: 7
+  spawnDelay: 0.1
   useWaveEffect: 1
-  autoCalculateSpacing: 1
-  manualSpacing: {x: 1, y: 1, z: 1}
-  use3D: 0
+  autoCalculateSpacing: 0
+  manualSpacing: {x: 1, y: 0, z: 1}
+  generate3D: 1
+  startFromCenter: 1
+  customStartPosition: {x: 0, y: 0, z: 0}
+  useNodeLimits: 1
+  nodeLimits:
+  - node: {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
+    maxCount: 15
+    description: Wall limits
+  useBoundaries: 1
+  boundaryNode: {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
+  boundaryOnXEdges: 0
+  boundaryOnZEdges: 1
+  boundaryOnYBottom: 0
+  boundaryOnYTop: 0
+  boundaryThickness: 1
   Nodes:
-  - {fileID: 11400000, guid: 8f0c0005a62367c48b86110146d24a37, type: 2}
-  - {fileID: 11400000, guid: e7bb8cc78de41b54cad4dada5c9279b1, type: 2}
-  - {fileID: 11400000, guid: 7642bc9b53d200443b80f05726b94ed9, type: 2}
-  - {fileID: 11400000, guid: 57bc74fbff211cb4eb5c1d8898a1f876, type: 2}
-  - {fileID: 11400000, guid: 77227a92bff03a844b7d9d0c24bcb71d, type: 2}
-  - {fileID: 11400000, guid: 6cd23f7ed7d1c8b489b3fa48e37ee974, type: 2}
-  - {fileID: 11400000, guid: d11de84e2d91bce49b16c435489ea9e8, type: 2}
-  - {fileID: 11400000, guid: 33985b266ed8a514a918e57fab3bd403, type: 2}
-  - {fileID: 11400000, guid: 204949d77077046468cb9fd133b50297, type: 2}
-  - {fileID: 11400000, guid: d1474f34861711147881e0aafdd133d6, type: 2}
-  - {fileID: 11400000, guid: 80641b7ee42f1e448bdd73ce152ed260, type: 2}
-  - {fileID: 11400000, guid: 4a84f99e9d3ef5742bf969da689ee6e4, type: 2}
+  - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
+  - {fileID: 11400000, guid: 878d69c654402254e8e1273d2e48abed, type: 2}
+  - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
+  - {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
+  - {fileID: 11400000, guid: 2b746d7eaa275da4bb603017585c7ac3, type: 2}
+  - {fileID: 11400000, guid: c8154bdf035a0a14fbc144b20f2b77d4, type: 2}
+  - {fileID: 11400000, guid: 27b61ff6193099b45b35fc12aeaf95ed, type: 2}
+  - {fileID: 11400000, guid: fb552733bd96bdc4fbb2e528ee18f9fe, type: 2}
+  - {fileID: 11400000, guid: 005941dc822b4d14ab60c19f0ed01c1c, type: 2}
 --- !u!4 &1602944967
 Transform:
   m_ObjectHideFlags: 0
@@ -441,10 +453,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1795847264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1795847265}
+  m_Layer: 0
+  m_Name: CameraPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1795847265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795847264}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.23911765, y: 0.3696438, z: -0.09904577, w: 0.89239913}
+  m_LocalPosition: {x: -3.033802, y: 4.71, z: -3.272279}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 330585546}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 30, y: 45, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 330585546}
+  - {fileID: 1795847265}
   - {fileID: 410087041}
   - {fileID: 1602944967}
