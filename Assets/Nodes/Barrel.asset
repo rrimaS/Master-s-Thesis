@@ -13,43 +13,37 @@ MonoBehaviour:
   m_Name: Barrel
   m_EditorClassIdentifier: 
   Name: Barrel
-  Prefab: {fileID: 919132149155446097, guid: 0f9c0a23bb757b94a9cba6be5e2a543c, type: 3}
+  Prefab: {fileID: 4718380303228822601, guid: fc8b6fe6a57d39849bde0ed2812150f9, type: 3}
   North:
     CompatibleNodes:
-    - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
     - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
+    - {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   South:
     CompatibleNodes:
-    - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
     - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
+    - {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   East:
     CompatibleNodes:
     - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
-    - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   West:
     CompatibleNodes:
-    - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
     - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   Above:
-    CompatibleNodes:
-    - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
-    - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
+    CompatibleNodes: []
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   Below:
-    CompatibleNodes:
-    - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
-    - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
+    CompatibleNodes: []
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
-  canBeGroundLevel: 0
-  canBeAerial: 1
-  weight: 6
+  canBeGroundLevel: 1
+  canBeAerial: 0
+  weight: 1

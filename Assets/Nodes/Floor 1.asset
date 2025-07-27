@@ -16,47 +16,44 @@ MonoBehaviour:
   Prefab: {fileID: 919132149155446097, guid: ec7e715621e1a8c429fec28bbf8d946d, type: 3}
   North:
     CompatibleNodes:
-    - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
+    - {fileID: 11400000, guid: 005941dc822b4d14ab60c19f0ed01c1c, type: 2}
     - {fileID: 11400000}
     - {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
-    - {fileID: 11400000, guid: 2b746d7eaa275da4bb603017585c7ac3, type: 2}
+    - {fileID: 11400000, guid: 6d88ac14a94fdd94d8ed1b4c9b9bef61, type: 2}
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   South:
     CompatibleNodes:
-    - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
+    - {fileID: 11400000, guid: 005941dc822b4d14ab60c19f0ed01c1c, type: 2}
     - {fileID: 11400000}
+    - {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
+    - {fileID: 11400000, guid: 6d88ac14a94fdd94d8ed1b4c9b9bef61, type: 2}
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   East:
     CompatibleNodes:
-    - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
+    - {fileID: 11400000, guid: 005941dc822b4d14ab60c19f0ed01c1c, type: 2}
     - {fileID: 11400000}
     - {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
-    - {fileID: 11400000, guid: 2b746d7eaa275da4bb603017585c7ac3, type: 2}
+    - {fileID: 11400000, guid: 6d88ac14a94fdd94d8ed1b4c9b9bef61, type: 2}
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   West:
     CompatibleNodes:
-    - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
+    - {fileID: 11400000, guid: 005941dc822b4d14ab60c19f0ed01c1c, type: 2}
     - {fileID: 11400000}
     - {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
-    - {fileID: 11400000, guid: 2b746d7eaa275da4bb603017585c7ac3, type: 2}
+    - {fileID: 11400000, guid: 6d88ac14a94fdd94d8ed1b4c9b9bef61, type: 2}
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   Above:
-    CompatibleNodes:
-    - {fileID: 11400000, guid: fb552733bd96bdc4fbb2e528ee18f9fe, type: 2}
-    - {fileID: 11400000, guid: 005941dc822b4d14ab60c19f0ed01c1c, type: 2}
-    - {fileID: 11400000, guid: 27b61ff6193099b45b35fc12aeaf95ed, type: 2}
-    - {fileID: 11400000, guid: c8154bdf035a0a14fbc144b20f2b77d4, type: 2}
+    CompatibleNodes: []
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   Below:
-    CompatibleNodes:
-    - {fileID: 11400000, guid: 878d69c654402254e8e1273d2e48abed, type: 2}
+    CompatibleNodes: []
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   canBeGroundLevel: 1
   canBeAerial: 0
-  weight: 4
+  weight: 1

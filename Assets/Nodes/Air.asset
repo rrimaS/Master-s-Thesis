@@ -38,7 +38,6 @@ MonoBehaviour:
     CompatibleNodes:
     - {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
     - {fileID: 11400000, guid: 2b746d7eaa275da4bb603017585c7ac3, type: 2}
-    - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
     - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}

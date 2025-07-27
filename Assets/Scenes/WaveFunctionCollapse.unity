@@ -421,23 +421,17 @@ MonoBehaviour:
   - node: {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
     maxCount: 15
     description: Wall limits
-  useBoundaries: 1
-  boundaryNode: {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
+  useBoundaries: 0
+  boundaryNode: {fileID: 11400000, guid: 2b746d7eaa275da4bb603017585c7ac3, type: 2}
   boundaryOnXEdges: 0
   boundaryOnZEdges: 1
   boundaryOnYBottom: 0
   boundaryOnYTop: 0
   boundaryThickness: 1
   Nodes:
-  - {fileID: 11400000, guid: e9d4dbebcaf6951448e152246cacaf83, type: 2}
-  - {fileID: 11400000, guid: 878d69c654402254e8e1273d2e48abed, type: 2}
-  - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
-  - {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
-  - {fileID: 11400000, guid: 2b746d7eaa275da4bb603017585c7ac3, type: 2}
-  - {fileID: 11400000, guid: c8154bdf035a0a14fbc144b20f2b77d4, type: 2}
-  - {fileID: 11400000, guid: 27b61ff6193099b45b35fc12aeaf95ed, type: 2}
-  - {fileID: 11400000, guid: fb552733bd96bdc4fbb2e528ee18f9fe, type: 2}
   - {fileID: 11400000, guid: 005941dc822b4d14ab60c19f0ed01c1c, type: 2}
+  - {fileID: 11400000, guid: 316d26de020ffd44d8c911a7d2e62897, type: 2}
+  - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
 --- !u!4 &1602944967
 Transform:
   m_ObjectHideFlags: 0
