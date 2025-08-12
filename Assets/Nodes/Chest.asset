@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fdf66af3140a064aa6acef51a4a951b, type: 3}
-  m_Name: Barrel
+  m_Name: Chest
   m_EditorClassIdentifier: 
-  Name: Barrel
+  Name: Wood
   Prefab: {fileID: 4718380303228822601, guid: fc8b6fe6a57d39849bde0ed2812150f9, type: 3}
   North:
     CompatibleNodes:

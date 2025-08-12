@@ -27,11 +27,13 @@ MonoBehaviour:
   East:
     CompatibleNodes:
     - {fileID: 11400000}
+    - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   West:
     CompatibleNodes:
     - {fileID: 11400000}
+    - {fileID: 11400000, guid: 5bd62ee0f8350d640b8f5202cbcee268, type: 2}
     connectionType: default
     debugColor: {r: 1, g: 1, b: 1, a: 1}
   Above:
