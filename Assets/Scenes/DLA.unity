@@ -287,19 +287,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings:
     mapSize: 256
-    maxParticles: 1500
+    maxParticles: 3000
     maxWalkSteps: 5000
     stickiness: 0.9
-    seedCount: 1
-    centerBias: 1.3
-    branchingFactor: 0.7
+    seedCount: 3
+    centerStart: 1
+    clusterRadius: 2
     smoothingPasses: 2
     smoothingRadii:
     - 2
+    - 8
     - 16
+    - 32
     smoothingWeights:
     - 1
-    - 0.4
+    - 0.7
+    - 0.5
+    - 0.2
+    maxBlurDistance: 120
+    falloffPower: 2.5
+    heightMultiplier: 0.8
+    minimumHeight: 0.1
+    useCustomCurve: 0
+    heightFalloffCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
     terrainHeight: 80
     terrainWidth: 300
     terrainLength: 300
